@@ -1,0 +1,62 @@
+.body{
+    background-image: radial-gradient(red,black);
+}
+
+.navbar{
+    background-color: rgb(255, 255, 81);
+}
+
+.navbar-brand{
+    font-weight: 900;
+    font-family: cursive;
+    color: rgb(205, 0, 0);
+}
+
+.title{
+    display: block;
+    margin: 70px 10% 5px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: 3px solid yellow;
+    border-bottom: 0cqmin;
+    padding: 3%;
+}
+
+.logo{
+    display: block;
+    margin: 5px auto 1px;
+    width: 30%;
+    height: 30%;
+}
+
+.btn{
+    display: block;
+    margin: 5px auto 1px;
+    width: 20%;
+    border: 3px solid black;
+    margin: 5px auto 100px;
+}
+
+.btn:hover{
+    background-color: black;
+    border: 3px solid white;
+
+}
+
+.footer_text{
+    text-align: center;
+    color: white;
+    font-size: 7px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 1px;
+
+}
+
+.footer{
+    background-color: black;
+    padding: 10px;
+}
