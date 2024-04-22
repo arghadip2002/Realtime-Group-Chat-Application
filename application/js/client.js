@@ -1,4 +1,6 @@
-const socket = io("https://realtime-group-chat-application.onrender.com");
+const socket = io("https://realtime-group-chat-application.onrender.com", {
+  transports: ["websocket"],
+});
 
 const form = document.getElementById("send-container");
 const messageInput = document.getElementById("messageInp");
